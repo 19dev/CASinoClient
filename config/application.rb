@@ -19,5 +19,9 @@ module CasinoClient
     # The default locale is :en and all translations from config/locales/*.rb,yml are auto loaded.
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
     # config.i18n.default_locale = :de
+
+    require 'rack-cas/session_store/active_record'
+    config.rack_cas.session_store = RackCAS::ActiveRecordStore
+    config.rack_cas.server_url = 'http://localhost:3000/'
   end
 end
