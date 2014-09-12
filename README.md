@@ -9,7 +9,7 @@ $ rake db:migrate
 $ rails s -p 3002
 ```
 
-## Nasıl Yapıldı?
+## Ayrıntılar
 
 Sırasıyla,
 
