@@ -1,3 +1,16 @@
+
+## Yapılacaklar
+
+Sırasıyla,
+
+```bash
+$ bundle install
+$ rake db:migrate
+$ rails s -p 3002
+```
+
+## Nasıl Yapıldı?
+
 Sırasıyla,
 
 ```ruby
